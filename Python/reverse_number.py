@@ -10,6 +10,13 @@ Numbers should preserve their sign; i.e. a negative number should still be negat
 def reverse_number(n):  
     return int(str(n)[::-1] if n >=0 else "-"+str(n)[:0:-1])
 
+def reverseNumber2(n):
+    if n < 0: return -reverseNumber(-n)
+    return int(str(n)[::-1])
+
+def reverseNumber3(n):
+    return int(str(abs(n))[::-1]) * (-1 if n < 0 else 1)
+
 print(reverse_number(123))
 print(reverse_number(-123))
 print(reverse_number(1000))
