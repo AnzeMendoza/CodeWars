@@ -1,0 +1,66 @@
+
+nav{
+    background: orange;
+}
+.menu{
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    display: block;
+    padding: 30px;
+    color:red;
+    text-decoration: none;
+}
+.menu a:hover{
+    background: greenyellow;
+}
+.gris{
+    background: gray;
+    color: black;
+    text-align: center;
+    padding: 80px;
+}
+
+.hierba{
+    height: 350px;
+    background: url(../image/pic01.jpg);
+}
+
+.dos-col{
+    width: 1024px;
+    margin: auto;
+}
+.dos-col .col-left{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dos-col .col-right{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.tres-col{
+    background: green;
+    color: white;
+    width: 1024;
+    margin: auto;
+}
+
+.tres-col a{
+    color: white;
+}
+
+.col{
+    display: inline-block;
+}
+
+.tres-col .col{
+    width: 300px;
+}
