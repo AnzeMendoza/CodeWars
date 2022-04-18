@@ -8,4 +8,4 @@ def add_binary(a,b):
     pass
 def convert_binary(number):
     while (number>1) > 0:
-        
+ 
